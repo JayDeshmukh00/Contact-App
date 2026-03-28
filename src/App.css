@@ -85,10 +85,17 @@
   padding: 5px 10px;
   border-radius: 4px;
   cursor: pointer;
+  float: right;
 }
 
 .contact-item button:hover {
   background: #ff3838;
+}
+
+.contact-item::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 @media (max-width: 600px) {
